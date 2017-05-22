@@ -137,6 +137,14 @@ enum class key_code : uint32_t {
   down_arrow = kHIDUsage_KeyboardDownArrow,
   up_arrow = kHIDUsage_KeyboardUpArrow,
 
+  quote = kHIDUsage_KeyboardQuote,
+  semicolon = kHIDUsage_KeyboardSemicolon,
+  slash = kHIDUsage_KeyboardSlash,
+  open_bracket = kHIDUsage_KeyboardOpenBracket,
+
+  period = kHIDUsage_KeyboardPeriod,
+  comma = kHIDUsage_KeyboardComma,
+
   keypad_slash = kHIDUsage_KeypadSlash,
   keypad_asterisk = kHIDUsage_KeypadAsterisk,
   keypad_hyphen = kHIDUsage_KeypadHyphen,

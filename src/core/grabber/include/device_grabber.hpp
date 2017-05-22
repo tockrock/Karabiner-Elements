@@ -695,6 +695,15 @@ private:
         std::make_pair(key_code::left_arrow, key_code::home),
         std::make_pair(key_code::down_arrow, key_code::page_down),
         std::make_pair(key_code::up_arrow, key_code::page_up),
+
+        std::make_pair(key_code::quote, key_code::right_arrow),
+        std::make_pair(key_code::semicolon, key_code::left_arrow),
+        std::make_pair(key_code::slash, key_code::down_arrow),
+        std::make_pair(key_code::open_bracket, key_code::up_arrow),
+        std::make_pair(key_code::period, key_code::page_down),
+        std::make_pair(key_code::l, key_code::page_up),
+        std::make_pair(key_code::comma, key_code::end),
+        std::make_pair(key_code::k, key_code::home),
     });
     for (const auto& p : pairs) {
       auto manipulator = std::make_unique<manipulator::details::basic>(manipulator::details::event_definition(
